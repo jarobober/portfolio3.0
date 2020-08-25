@@ -2,7 +2,7 @@
   <v-parallax
     class="section-divider__parallax pt-3"
     src="@/assets/parallax.jpg"
-    height="440"
+    height="450"
   >
     <v-container>
       <v-row justify="center">
@@ -19,7 +19,7 @@
             width="50"
             class="mx-auto"
           />
-          <p class="mt-5 mx-auto text-center text-h6">{{ item.text }}</p>
+          <p class="mt-2 mx-auto text-center text-h6">{{ item.text }}</p>
         </v-col>
       </v-row>
     </v-container>
