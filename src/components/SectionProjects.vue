@@ -23,6 +23,7 @@
                 v-for="(image, i) in project.images"
                 :key="i"
                 :src="require(`@/assets/project-slides/${image}`)"
+                position="center top"
               ></v-carousel-item>
             </v-carousel>
             <v-card-title class="text-h4">

@@ -39,8 +39,7 @@
             <v-text-field 
               label="Name"
               color="#14213d"
-              class="input-field"
-              outlined
+              filled
               v-model="nameContact"
               :rules="nameRules"
             >
@@ -50,7 +49,7 @@
               type="email"
               name="_replyto"
               color="#14213d"
-              outlined
+              filled
               v-model="mailContact"
               :rules="emailRules"
             >
@@ -59,7 +58,7 @@
               label="Text"
               name="message"
               color="#14213d"
-              outlined
+              filled
               v-model="messageContact"
               :rules="textRules"
             >

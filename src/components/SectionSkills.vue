@@ -80,7 +80,7 @@ export default {
         },
         {
           title: "Git",
-          subtitle: "Github repository",
+          subtitle: "GitHub repository",
           text:
             "I use Git on command line. So far I was using it for projects made only by myself, so I would like to learn the workflow in a team.",
           img: "github-logo.png"
