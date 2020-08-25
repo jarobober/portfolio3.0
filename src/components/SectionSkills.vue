@@ -5,12 +5,12 @@
         <h1 class="text-h1 mb-10" uppercased>Skills</h1>
       </v-row>
       <v-row justify="center">
-        <v-col cols="12" sm="6" lg="4" v-for="item in skills" :key="item.name">
+        <v-col cols="12" md="6" lg="4" v-for="item in skills" :key="item.name">
           <v-card
             v-scrollanimation
             class="my-5 mx-auto pt-2 rounded"
             elevation="5"
-            width="280"
+            width="300"
             height="350"
             tile
           >

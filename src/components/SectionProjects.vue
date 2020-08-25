@@ -8,7 +8,7 @@
         <v-col v-for="(project, i) in projects" :key="i" md="8">
           <v-card
             v-scrollanimation
-            elevation="24"
+            elevation="10"
             color="#14213d"
             dark
             class="mb-5"
