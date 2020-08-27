@@ -34,7 +34,7 @@
           <v-form
             action="https://formspree.io/jarek.bober@gmail.com"
             method="POST"
-            @submit.prevent="sendEmail"
+            
           >
             <v-text-field 
               label="Name"
@@ -66,6 +66,7 @@
             <div class="d-flex justify-space-between">
               <v-btn
                 type="submit"
+                class="pa-1"
                 :loading="isSending"
                 :disabled="!nameContact || !mailContact || !messageContact"
               >
