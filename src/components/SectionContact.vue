@@ -34,7 +34,7 @@
           <v-form
             action="https://formspree.io/jarek.bober@gmail.com"
             method="POST"
-            
+            @submit.prevent="sendEmail"
           >
             <v-text-field 
               label="Name"
