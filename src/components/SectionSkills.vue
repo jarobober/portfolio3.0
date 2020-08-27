@@ -2,7 +2,7 @@
   <section class="section-skills__wrapper pa-10" id="section-skills">
     <v-container>
       <v-row justify="center">
-        <h1 class="text-h1 mb-10" uppercased>Skills</h1>
+        <h1 class="text-h2 text-md-h1 pa-2 mb-10" uppercased>Skills</h1>
       </v-row>
       <v-row justify="center">
         <v-col cols="12" md="6" lg="4" v-for="item in skills" :key="item.name">

@@ -2,7 +2,7 @@
   <section class="section-about__wrapper pa-10" id="section-about">
     <v-container>
       <v-row justify="center">
-        <h1 class="text-h1 mb-10" uppercased>About me</h1>
+        <h1 class="text-h2 text-md-h1 pa-2 mb-10" uppercased>About me</h1>
       </v-row>
       <v-row justify="center" class="flex-wrap">
         <v-col cols="12" sm="6" class="mb-4">

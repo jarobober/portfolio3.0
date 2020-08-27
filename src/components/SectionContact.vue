@@ -2,10 +2,10 @@
   <section class="section-contact__wrapper pa-10" id="section-contact">
     <v-container>
       <v-row justify="center">
-        <h1 class="text-h1 mb-10" uppercased>Contact</h1>
+        <h1 class="text-h2 text-md-h1 pa-2 mb-10" uppercased>Contact</h1>
       </v-row>
       <v-row justify="center">
-        <v-col cols="6" class="text-center text-subtitle-1">
+        <v-col cols="10" md="6" class="text-center text-subtitle-1">
           <p>
             If you found our cooperation could be successful feel free to
             contact me directly via e-mail, phone or using contact form
@@ -34,7 +34,7 @@
           <v-form
             action="https://formspree.io/jarek.bober@gmail.com"
             method="POST"
-            @submit.prevent="sendEmail"
+            
           >
             <v-text-field 
               label="Name"
@@ -130,7 +130,7 @@ export default {
         .catch((error) => {
           if(error.response) {          
           // eslint-disable-next-line no-alert          
-          alert(error.response.data);
+          console.log(error.response.data);
           }
         });
     }

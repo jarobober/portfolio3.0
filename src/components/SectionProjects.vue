@@ -2,7 +2,7 @@
   <section class="section-projects__wrapper pa-10" id="section-projects">
     <v-container>
       <v-row justify="center">
-        <h1 class="text-h1 mb-10" uppercased>Projects</h1>
+        <h1 class="text-h2 text-md-h1 pa-2 mb-10" uppercased>Projects</h1>
       </v-row>
       <v-row justify="center" class="mb-10 ">
         <v-col v-for="(project, i) in projects" :key="i" cols="12" md="8">
