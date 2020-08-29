@@ -59,16 +59,16 @@ export default {
         },
         {
           title: "HTML 5",
-          subtitle: "Semantic HTML",
+          subtitle: "HyperText Markup Language",
           text:
-            "I'm trying to write semantically correct code what helps either search engines and screen readers.",
+            "I pay attention to write semantically correct code what helps Search Engine Optimalization and accessibility.",
           img: "html-logo.png"
         },
         {
           title: "CSS 3",
           subtitle: "Grid / Flexbox / Pseudoclasses",
           text:
-            "I'm able to code layouts using grid and flexbox. I know how to use pseudoclasses and make animations using keyframes. I'm writing my styles for mobile screen sizes first adding media queries for larger screens.",
+            "I'm able to code layouts using grid and flexbox. I know how to use pseudoclasses and make animations using keyframes. I write my styles for mobile screen sizes first adding media queries for larger screens.",
           img: "css-logo.png"
         },
         {
