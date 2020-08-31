@@ -47,14 +47,14 @@ export default {
           title: "Vue.js",
           subtitle: "Vue CLI / Vue Router / Vuetify",
           text:
-            "I'm able to create Vue CLI projects, adding additional libraries using NPM, creating routes with Vue Router, creating Components, custom Directives and using Vuetify if there is need for UI framework.",
+            "I'm able to create Vue CLI projects, creating routes with Vue Router, creating Components, custom Directives and using Vuetify if there is a need for UI framework.",
           img: "logo.png"
         },
         {
           title: "JavaScript",
           subtitle: "JavaScipt ES5/ES6+",
           text:
-            "I know how Object-oriented Programming and asynchronous operations work. I can manipulate DOM API using JS or make algorithms do manage data. I try to update my knowledge with current ES versions.",
+            "I know how Object-oriented Programming and asynchronous operations work. I can manipulate DOM API using JS or make algorithms to manage data. I try to update my knowledge with current ES versions.",
           img: "js-logo.png"
         },
         {
@@ -68,7 +68,7 @@ export default {
           title: "CSS 3",
           subtitle: "Grid / Flexbox / Pseudoclasses",
           text:
-            "I'm able to code layouts using grid and flexbox. I know how to use pseudoclasses and make animations using keyframes. I write my styles for mobile screen sizes first adding media queries for larger screens.",
+            "I'm able to code layouts using grid and flexbox. I know how to use pseudoclasses and make animations using keyframes. Mobile-first approach.",
           img: "css-logo.png"
         },
         {

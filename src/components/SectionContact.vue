@@ -6,7 +6,7 @@
       </v-row>
       <v-row justify="center">
         <v-col cols="10" md="6" class="text-center text-subtitle-1">
-          <p>
+          <p class="mb-10">
             If you found our cooperation could be successful feel free to
             contact me directly via e-mail, phone or using contact form
             below.
@@ -148,7 +148,7 @@ export default {
 .section-contact__contact-card {
   color: #169873;
   background-color: #14213d;
-  border: 1px solid #14213d;
+  border: 0.5px solid #14213d;
 }
 
 .section-contact__contact-card--item {

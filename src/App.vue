@@ -10,11 +10,13 @@
       fixed
       temporary
     >
+      
       <v-list>
         <v-list-item
           v-for="item in navigationLinks"
           :key="item.name"
           link
+          nav
           @click="$vuetify.goTo(item.target, {duration: '800', easing: 'easeInOutCubic'}); close();"
         >
           <v-list-item-icon>
@@ -29,6 +31,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      
     </v-navigation-drawer>
      <v-app-bar dark fixed collapse-on-scroll flat color="transparent">
       <v-app-bar-nav-icon 
@@ -46,7 +49,7 @@
           <header
             class="font-weight-light"
             >
-            Jaroslaw Bober
+            Jarosław Bober
           </header>
         </v-toolbar-title>
       </v-app-bar>

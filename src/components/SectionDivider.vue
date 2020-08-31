@@ -33,12 +33,12 @@ export default {
     return {
       practices: [
         {
-          icon: "mobile",
-          text: "Mobile first coding."
+          icon: "rwd",
+          text: "Mobile-first and responsive web design."
         },
         {
-          icon: "rwd",
-          text: "Responsive, properly displayed on all screen resolutions."
+          icon: "accessibility",
+          text: "Accessible for all users."
         },
         {
           icon: "learn",

@@ -7,7 +7,7 @@ const animatedScrollObserver = new IntersectionObserver(
         entry.target.classList.remove('enter');
       }
     });
-  }
+  }, {rootMargin: '100px 0px 0px 0px'}
 );
 
 export default {
