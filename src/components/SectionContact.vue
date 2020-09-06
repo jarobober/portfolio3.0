@@ -35,6 +35,7 @@
             action="https://formspree.io/jarek.bober@gmail.com"
             method="POST"
             @submit.prevent="sendEmail"
+            v-model="isFormValid"
           >
             <v-text-field 
               label="Name"
@@ -68,7 +69,7 @@
                 type="submit"
                 class="pa-1"
                 :loading="isSending"
-                :disabled="!nameContact || !mailContact || !messageContact"
+                :disabled="!isFormValid"
               >
                 send
               </v-btn>
@@ -110,7 +111,8 @@ export default {
       ],
       textRules: [
         v => !!v || 'Text is required',
-      ]
+      ],
+      isFormValid: false
     };
   },
   methods: {
