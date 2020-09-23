@@ -117,7 +117,7 @@ export default {
           text:
             "A WordPress theme made fully by myself. Although no previous PHP experience I coded theme using documentation and tutorials found in web. Stack I have chosen for this project was HTML5, CSS3, jQuery and PHP back-end thanks to documentation.",
           code: "",
-          website: "https://karoijaro.pl/",
+          website: "https://karoijaroblog.pl/",
           images: [
             "blog/blog.png",
             "blog/blog1.png",
